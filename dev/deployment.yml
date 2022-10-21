@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: application-demo
-        image: dockerbogo/docker-nginx-hello-world
+        image: arm64v8/nginx
         ports:
         - containerPort: 80
