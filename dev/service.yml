@@ -4,10 +4,10 @@ metadata:
   name: application-demo-svc
 spec:
   type: LoadBalancer
-  loadBalancerIP: 10.0.0.203
+  loadBalancerIP: 10.0.0.206
   selector:
     app: application-demo
   ports:
   - port: 8080
     protocol: TCP
-    targetPort: 8080
+    targetPort: 80

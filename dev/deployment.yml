@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: application-demo
-        image: nanajanashia/argocd-app:1.0
+        image: dockerbogo/docker-nginx-hello-world
         ports:
-        - containerPort: 8080
+        - containerPort: 80
