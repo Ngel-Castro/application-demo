@@ -1,0 +1,4 @@
+resources:
+- application.yml
+- cluster-applications.yml
+- kubeseal-application.yml

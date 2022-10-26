@@ -1,0 +1,2 @@
+resources:
+- kubeseal-controller.yaml
